@@ -1,0 +1,53 @@
+import requests
+import os
+import xml.etree.ElementTree as ET
+
+def fetch_and_download_papers():
+    print("Fetching new papers...")
+    # 以下URL中的max_results设置为5，仅作测试用途，实际应用可根据需要进行调整
+    url = 'http://export.arxiv.org/api/query?search_query=cat:cond-mat.mtrl-sci&start=0&max_results=50'
+    response = requests.get(url)
+    print(f'Status code for downloading PDF: {response.status_code}')
+    if response.status_code == 200:
+        print("API request successful.")
+        
+    else:
+        print(f"API request failed with status code {response.status_code}.")
+        return
+    
+    root = ET.fromstring(response.content)
+    
+    if not os.path.exists('papers'):
+        os.makedirs('papers')
+    
+    # 解析返回的 XML 数据
+    for entry in root.findall('{http://www.w3.org/2005/Atom}entry'):
+        title_element = entry.find('{http://www.w3.org/2005/Atom}title')
+        id_element = entry.find('{http://www.w3.org/2005/Atom}id')
+        if title_element is not None and id_element is not None:
+            title = title_element.text.strip()
+            paper_id = id_element.text.split('/')[-1]
+            print(f'Found paper: {title} [{paper_id}]')
+            pdf_url = f'http://arxiv.org/pdf/{paper_id}.pdf'
+            print(pdf_url)
+            pdf_filename = os.path.join('papers', f'{paper_id}.pdf')
+            download_paper(pdf_url, pdf_filename)
+        else:
+            print("Failed to find title or id for an entry.")
+
+def download_paper(url, filename):
+    print(f'Downloading from {url} ...')
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(filename, 'wb') as f:
+            f.write(response.content)
+        print(f'Downloaded to {filename}')
+    else:
+        print(f'Failed to download {url} with status code {response.status_code}.')
+
+test_url = "http://arxiv.org/pdf/2103.00008.pdf"
+test_filename = "test_paper.pdf"
+download_paper(test_url, test_filename)
+
+# 检查当前目录下是否存在 test_paper.pdf 文件
+fetch_and_download_papers()
