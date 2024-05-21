@@ -12,7 +12,7 @@ def fetch_and_download_papers():
     print("Fetching new papers...")
 
     # Config Scraper
-    scraper = Scraper(category='cond-mat.mtrl-sci', date_from='2022-05-01', date_until='2022-05-07', filters={'categories': ['cond-mat.mtrl-sci']})
+    scraper = Scraper(category='cond-mat', date_from='2022-05-01', date_until='2022-05-07', filters={'categories': ['cond-mat.mtrl-sci']})
     output = scraper.scrape()
 
     # Create directory for papers
