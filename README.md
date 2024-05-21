@@ -1,17 +1,17 @@
 ## Updated on 2024.05.21
 
-## SLAM
+## material
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
-|**2024-05-18**|**Outlier-Robust Long-Term Robotic Mapping Leveraging Ground Segmentation**|Hyungtae Lim et.al.|[2405.11176v1](http://arxiv.org/abs/2405.11176v1)|
-|**2024-05-18**|**MotionGS : Compact Gaussian Splatting SLAM by Motion Filter**|Xinli Guo et.al.|[2405.11129v1](http://arxiv.org/abs/2405.11129v1)|
-|**2024-05-17**|**CCTNet: A Circular Convolutional Transformer Network for LiDAR-based Place Recognition Handling Movable Objects Occlusion**|Gang Wang et.al.|[2405.10793v1](http://arxiv.org/abs/2405.10793v1)|
-|**2024-05-17**|**Occupancy-SLAM: Simultaneously Optimizing Robot Poses and Continuous Occupancy Map**|Liang Zhao et.al.|[2405.10743v1](http://arxiv.org/abs/2405.10743v1)|
-|**2024-05-14**|**IPC: Incremental Probabilistic Consensus-based Consistent Set Maximization for SLAM Backends**|Emilio Olivastri et.al.|[2405.08503v1](http://arxiv.org/abs/2405.08503v1)|
-|**2024-05-13**|**OverlapMamba: Novel Shift State Space Model for LiDAR-based Place Recognition**|Qiuchi Xiang et.al.|[2405.07966v1](http://arxiv.org/abs/2405.07966v1)|
-|**2024-05-13**|**SceneFactory: A Workflow-centric and Unified Framework for Incremental Scene Modeling**|Yijun Yuan et.al.|[2405.07847v1](http://arxiv.org/abs/2405.07847v1)|
-|**2024-05-12**|**NGD-SLAM: Towards Real-Time SLAM for Dynamic Environments without GPU**|Yuhao Zhang et.al.|[2405.07392v1](http://arxiv.org/abs/2405.07392v1)|
-|**2024-05-12**|**Hologram: Realtime Holographic Overlays via LiDAR Augmented Reconstruction**|Ekansh Agrawal et.al.|[2405.07178v1](http://arxiv.org/abs/2405.07178v1)|
-|**2024-05-11**|**TD-NeRF: Novel Truncated Depth Prior for Joint Camera Pose and Neural Radiance Field Optimization**|Zhen Tan et.al.|[2405.07027v1](http://arxiv.org/abs/2405.07027v1)|
+|**2024-05-20**|**Tunable Spatiotemporal Orders in Driven Insulators**|Daniel Kaplan et.al.|[2405.12214v1](http://arxiv.org/abs/2405.12214v1)|
+|**2024-05-20**|**Histotripsy of blood clots within a hollow cylindrical transducer for aspiration thrombectomy applications**|Li Gong et.al.|[2405.12194v1](http://arxiv.org/abs/2405.12194v1)|
+|**2024-05-20**|**Machine learning for predicting ultralow thermal conductivity and high ZT in complex thermoelectric materials**|Yuzhou Hao et.al.|[2405.12143v1](http://arxiv.org/abs/2405.12143v1)|
+|**2024-05-20**|**Auger photoemission as a laser-like coherent cathode**|Yushan Zeng et.al.|[2405.12133v1](http://arxiv.org/abs/2405.12133v1)|
+|**2024-05-20**|**$ {}^{164} \mathrm{Pb} $: A possible heaviest $ N = Z $ doubly-magic nucleus**|Tomoya Naito et.al.|[2405.12095v1](http://arxiv.org/abs/2405.12095v1)|
+|**2024-05-20**|**Real topological phonons in 3D carbon allotropes**|Xiaotian Wang et.al.|[2405.12072v1](http://arxiv.org/abs/2405.12072v1)|
+|**2024-05-20**|**Alkaline earth metal mediated inter-molecular magnetism in perfluorocubane dimers and chains**|Zhuohang Li et.al.|[2405.12060v1](http://arxiv.org/abs/2405.12060v1)|
+|**2024-05-20**|**NPLMV-PS: Neural Point-Light Multi-View Photometric Stereo**|Fotios Logothetis et.al.|[2405.12057v1](http://arxiv.org/abs/2405.12057v1)|
+|**2024-05-20**|**Coherent Quantum Communications Across National Scale Telecommunication Infrastructure**|Mirko Pittaluga et.al.|[2405.11990v1](http://arxiv.org/abs/2405.11990v1)|
+|**2024-05-20**|**A review on the use of large language models as virtual tutors**|Silvia García-Méndez et.al.|[2405.11983v1](http://arxiv.org/abs/2405.11983v1)|
 

@@ -135,7 +135,7 @@ if __name__ == "__main__":
 
     data_collector = []
     keywords = dict()
-    keywords["SLAM"] = "SLAM"
+    keywords["material"] = "material"
  
     for topic,keyword in keywords.items():
  
